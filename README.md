@@ -6,7 +6,7 @@
 
 A minimal theme for VS Code that comes in dark blue and light gray.
 
-[![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/theme/manuel.cubs-theme)
+[![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/theme/nuelst.cubs-theme)
 
 </div>
 
@@ -17,7 +17,7 @@ A minimal theme for VS Code that comes in dark blue and light gray.
 
 ## Installation
 
-1. Install the theme from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=manuel.cubs-theme).
+1. Install the theme from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=nuelst.cubs-theme).
 2. Open the Color Theme picker:
    - **Windows / Ubuntu:** `File > Preferences > Color Theme` or press `Ctrl+K` then `Ctrl+T`
    - **macOS:** `Code > Preferences > Color Theme` or press `Cmd+K` then `Cmd+T`
