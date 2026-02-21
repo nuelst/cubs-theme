@@ -1,0 +1,52 @@
+{
+  "name": "cubs-theme",
+  "displayName": "Cubs",
+  "description": "A minimal VSCode theme with two variants - a deep dark blue and a clean light gray",
+  "version": "0.0.1",
+  "publisher": "nuelst",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nuelst/cubs-theme"
+  },
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#111422",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cubs Dark Blue",
+        "uiTheme": "vs-dark",
+        "path": "./theme/cubs-dark-color-theme.json"
+      },
+      {
+        "label": "Cubs Light Gray",
+        "uiTheme": "vs",
+        "path": "./theme/cubs-light-color-theme.json"
+      }
+    ]
+  },
+  "license": "MIT",
+  "author": "manuel",
+  "keywords": [
+    "theme",
+    "dark",
+    "light",
+    "minimal"
+  ],
+  "packageManager": "pnpm@10.29.3",
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  },
+  "scripts": {
+    "package": "vsce package --no-yarn",
+    "publish": "vsce publish --no-yarn"
+  }
+}
