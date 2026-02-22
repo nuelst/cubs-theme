@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/nuelst/cubs-theme/main/icon.png" width="140" />
+<img src="assets/icon.png" width="140" />
 
 # Cubs Theme
 
@@ -13,7 +13,13 @@ A minimal theme for VS Code that comes in dark blue and light gray.
 ## Variants
 
 - **Cubs Dark Blue** — Deep dark blue base (`#111422`) with soft blue primary accents
+
+![preview-dark-blue](assets/cubs-dark-blue.svg)
+
 - **Cubs Light Gray** — Clean light gray base (`#f3f4f5`) with teal primary accents, optimized for bright environments
+
+![preview-light-gray](assets/cubs-light-gray.svg)
+
 
 ## Installation
 
@@ -37,6 +43,15 @@ cd cubs-theme
 ```
 
 Open the folder in VS Code and press `F5` to launch the Extension Development Host.
+
+## Local Package + Install
+
+```bash
+pnpm install
+pnpm run package
+cursor --install-extension cubs-theme-0.0.1.vsix
+code --install-extension cubs-theme-0.0.1.vsix
+```
 
 ## License
 
