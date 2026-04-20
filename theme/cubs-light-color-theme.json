@@ -443,7 +443,7 @@
     "welcomePage.tileHoverBackground": "#00000033",
     "widget.shadow": "#0000000d"
   },
-  "name": "Cubs Light Gray",
+  "name": "Light",
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "class.declaration": {

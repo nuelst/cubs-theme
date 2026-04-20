@@ -4,7 +4,7 @@
 
 # Cubs Theme
 
-A minimal theme for VS Code that comes in dark blue and light gray.
+A minimal VS Code theme with three variants — Midnight, Light and Shadow.
 
 [![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/theme/nuelst.cubs-theme)
 
@@ -12,47 +12,51 @@ A minimal theme for VS Code that comes in dark blue and light gray.
 
 ## Variants
 
-- **Cubs Dark Blue** — Deep dark blue base (`#111422`) with soft blue primary accents
+- **Light** — Clean light gray base (`#f3f4f5`) with teal accents, optimized for bright environments
 
-![preview-dark-blue](assets/cubs-dark-blue.svg)
+![preview-light](assets/cubs-light.png)
 
-- **Cubs Light Gray** — Clean light gray base (`#f3f4f5`) with teal primary accents, optimized for bright environments
+- **Midnight** — Deep dark blue base (`#111422`) with soft blue accents
 
-![preview-light-gray](assets/cubs-light-gray.svg)
+![preview-midnight](assets/cubs-midnight.png)
 
+- **Shadow** — Pure black base (`#0C0C0C`) with subtle gray tones, for minimal distraction
+
+![preview-shadow](assets/cubs-shadow.png)
 
 ## Installation
 
-1. Install the theme from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=nuelst.cubs-theme).
+1. Install from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=nuelst.cubs-theme)
 2. Open the Color Theme picker:
-   - **Windows / Ubuntu:** `File > Preferences > Color Theme` or press `Ctrl+K` then `Ctrl+T`
-   - **macOS:** `Code > Preferences > Color Theme` or press `Cmd+K` then `Cmd+T`
-3. Choose **Cubs Dark Blue** or **Cubs Light Gray**.
+   - **Windows / Linux:** `Ctrl+K` then `Ctrl+T`
+   - **macOS:** `Cmd+K` then `Cmd+T`
+3. Choose **Light**, **Midnight** or **Shadow**
 
-Alternatively install via CLI:
+Or via CLI:
 
 ```bash
 code --install-extension nuelst.cubs-theme
+cursor --install-extension nuelst.cubs-theme
 ```
 
-## Manual Installation (Development)
+## Development
 
 ```bash
 git clone https://github.com/nuelst/cubs-theme
 cd cubs-theme
+pnpm install
 ```
 
-Open the folder in VS Code and press `F5` to launch the Extension Development Host.
+Press `F5` in VS Code to launch the Extension Development Host.
 
-## Local Package + Install
+## Local Build & Install
 
 ```bash
-pnpm install
 pnpm run package
-cursor --install-extension cubs-theme-0.0.1.vsix
-code --install-extension cubs-theme-0.0.1.vsix
+code --install-extension cubs-theme-1.0.1.vsix
+cursor --install-extension cubs-theme-1.0.1.vsix
 ```
 
 ## License
 
-[MIT License](LICENSE)
+[MIT](LICENSE)

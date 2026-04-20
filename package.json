@@ -1,8 +1,8 @@
 {
   "name": "cubs-theme",
   "displayName": "Cubs Theme",
-  "description": "A minimal VSCode theme with two variants - a deep dark blue and a clean light gray",
-  "version": "0.0.1",
+  "description": "A minimal VSCode theme with three variants - Midnight, Light and Shadow",
+  "version": "1.0.1",
   "publisher": "nuelst",
   "repository": {
     "type": "git",
@@ -22,14 +22,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "Cubs Dark Blue",
+        "label": "Cubs Dark",
         "uiTheme": "vs-dark",
         "path": "./theme/cubs-dark-color-theme.json"
       },
       {
-        "label": "Cubs Light Gray",
+        "label": "Cubs Light",
         "uiTheme": "vs",
         "path": "./theme/cubs-light-color-theme.json"
+      },
+      {
+        "label": "Cubs Shadow",
+        "uiTheme": "vs-dark",
+        "path": "./theme/cubs-shadow-theme.json"
       }
     ]
   },
