@@ -4,7 +4,7 @@
 
 # Cubs Theme
 
-A minimal VS Code theme with three variants — Midnight, Light and Shadow.
+A minimal VS Code theme with three variants — Dawn, Dusk and Midnight.
 
 [![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/theme/nuelst.cubs-theme)
 
@@ -12,17 +12,17 @@ A minimal VS Code theme with three variants — Midnight, Light and Shadow.
 
 ## Variants
 
-- **Light** — Clean light gray base (`#f3f4f5`) with teal accents, optimized for bright environments
+- **Dawn** — Clean light gray base (`#f3f4f5`) with teal accents, optimized for bright environments
 
-![preview-light](assets/cubs-light.png)
+![preview-dawn](assets/cubs-dawn.png)
+
+- **Dusk** — Neutral dark gray base (`#1f1f1f`) with subtle gray tones, for minimal distraction. Based on [Min Dark](https://github.com/misolori/min-theme) by Miguel Solorio (MIT)
+
+![preview-dusk](assets/cubs-dusk.png)
 
 - **Midnight** — Deep dark blue base (`#111422`) with soft blue accents
 
 ![preview-midnight](assets/cubs-midnight.png)
-
-- **Shadow** — Pure black base (`#0C0C0C`) with subtle gray tones, for minimal distraction
-
-![preview-shadow](assets/cubs-shadow.png)
 
 ## Installation
 
@@ -30,7 +30,7 @@ A minimal VS Code theme with three variants — Midnight, Light and Shadow.
 2. Open the Color Theme picker:
    - **Windows / Linux:** `Ctrl+K` then `Ctrl+T`
    - **macOS:** `Cmd+K` then `Cmd+T`
-3. Choose **Light**, **Midnight** or **Shadow**
+3. Choose **Cubs Dawn**, **Cubs Dusk** or **Cubs Midnight**
 
 Or via CLI:
 

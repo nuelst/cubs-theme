@@ -1,8 +1,8 @@
 {
   "name": "cubs-theme",
   "displayName": "Cubs Theme",
-  "description": "A minimal VSCode theme with three variants - Midnight, Light and Shadow",
-  "version": "1.0.1",
+  "description": "A minimal VSCode theme with three variants - Dawn, Dusk and Midnight",
+  "version": "1.1.0",
   "publisher": "nuelst",
   "repository": {
     "type": "git",
@@ -22,19 +22,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "Cubs Dark",
+        "label": "Cubs Midnight",
         "uiTheme": "vs-dark",
-        "path": "./theme/cubs-dark-color-theme.json"
+        "path": "./theme/cubs-midnight.json"
       },
       {
-        "label": "Cubs Light",
+        "label": "Cubs Dawn",
         "uiTheme": "vs",
-        "path": "./theme/cubs-light-color-theme.json"
+        "path": "./theme/cubs-dawn.json"
       },
       {
-        "label": "Cubs Shadow",
+        "label": "Cubs Dusk",
         "uiTheme": "vs-dark",
-        "path": "./theme/cubs-shadow-theme.json"
+        "path": "./theme/cubs-dusk.json"
       }
     ]
   },
